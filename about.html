@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About & Services | Maha Periyavar Mudhiyor Paramarippu Maiyam</title>
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Google Fonts: Outfit & Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              sunset: '#FF6B35',
+              coral: '#F97316',
+              amber: '#F59E0B',
+              maroon: '#9F1239',
+              emerald: '#10B981',
+              dark: '#0F172A',
+            }
+          },
+          fontFamily: {
+            outfit: ['Outfit', 'sans-serif'],
+            sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    body { background-color: #FAFAF9; font-family: 'Plus Jakarta Sans', sans-serif; }
+    .font-heading { font-family: 'Outfit', sans-serif; }
+    .glass-nav { background: rgba(255, 255, 255, 0.85); backdrop-filter: blur(16px); }
+    .glow-sunset { box-shadow: 0 10px 30px -5px rgba(255, 107, 53, 0.35); }
+    .gradient-text { background: linear-gradient(135deg, #FF6B35 0%, #F59E0B 50%, #9F1239 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+  </style>
+</head>
+<body class="text-slate-800 antialiased selection:bg-orange-500 selection:text-white">
+
+  <!-- Top Announcement Bar -->
+  <div class="bg-gradient-to-r from-brand-maroon via-orange-600 to-amber-600 text-white text-xs font-semibold py-2 px-4 text-center">
+    <div class="max-w-7xl mx-auto flex items-center justify-center gap-3 flex-wrap">
+      <span class="inline-flex items-center gap-1.5 bg-white/20 backdrop-blur-md px-2.5 py-0.5 rounded-full text-[11px]">
+        <span class="w-2 h-2 rounded-full bg-emerald-400 animate-ping"></span>
+        Admissions Open
+      </span>
+      <span>24/7 Assisted Living & Doctor Supervision</span>
+      <span class="hidden sm:inline opacity-60">|</span>
+      <a href="tel:+919876543210" class="hover:underline flex items-center gap-1">
+        <i class="fa-solid fa-phone text-[10px]"></i> +91 98765 43210
+      </a>
+    </div>
+  </div>
+
+  <!-- Floating Trendy Header -->
+  <header class="sticky top-4 z-50 max-w-7xl mx-auto px-4 sm:px-6">
+    <div class="glass-nav border border-white/60 rounded-full shadow-lg shadow-black/5 px-5 sm:px-7 py-3 flex items-center justify-between">
+      
+      <!-- Logo with Maha Periyava Portrait -->
+      <a href="index.html#home" class="flex items-center gap-3 group focus:outline-none">
+        <div class="w-11 h-11 rounded-full overflow-hidden border-2 border-amber-400/80 shadow-sm flex-shrink-0 bg-amber-50">
+          <img src="mahaperiyavar-clean.jpg" alt="Maha Periyava" class="w-full h-full object-cover object-top">
+        </div>
+        <div class="flex flex-col justify-center">
+          <span class="font-heading font-extrabold text-sm sm:text-base text-slate-900 tracking-tight leading-none">
+            Maha Periyavar
+          </span>
+          <span class="text-[10px] sm:text-[11px] font-semibold text-brand-sunset tracking-wider uppercase mt-1 leading-none">
+            Mudhiyor Paramarippu Maiyam
+          </span>
+        </div>
+      </a>
+
+      <nav class="hidden md:flex items-center gap-1 lg:gap-2 font-semibold text-sm text-slate-700">
+        <a href="index.html#home" class="px-3.5 py-1.5 rounded-full hover:text-brand-sunset hover:bg-orange-50/70 transition-colors">Home</a>
+        <a href="about.html" class="px-3.5 py-1.5 rounded-full text-brand-sunset bg-orange-50/90">About & Services</a>
+        <a href="index.html#lifestyle" class="px-3.5 py-1.5 rounded-full hover:text-brand-sunset hover:bg-orange-50/70 transition-colors">Daily Life</a>
+        <a href="contact.html" class="px-3.5 py-1.5 rounded-full hover:text-brand-sunset hover:bg-orange-50/70 transition-colors">Contact</a>
+      </nav>
+
+      <a href="contact.html" class="bg-gradient-to-r from-brand-sunset to-brand-amber text-white font-bold text-xs sm:text-sm px-5 py-2.5 rounded-full shadow-sm hover:shadow hover:opacity-95 transition-all inline-flex items-center gap-2">
+        <span>Book a Visit</span>
+        <i class="fa-solid fa-arrow-right text-xs"></i>
+      </a>
+
+    </div>
+  </header>
+
+  <!-- Page Banner -->
+  <section class="pt-12 pb-16 text-center">
+    <div class="max-w-4xl mx-auto px-4">
+      <span class="bg-orange-100 text-brand-sunset text-xs font-bold uppercase tracking-wider px-3.5 py-1 rounded-full">
+        Sanctuary Overview
+      </span>
+      <h1 class="font-heading font-extrabold text-4xl sm:text-5xl text-slate-900 mt-3">
+        About Us & <span class="gradient-text">Care Services</span>
+      </h1>
+      <p class="text-slate-500 text-sm sm:text-base max-w-xl mx-auto mt-2">
+        High-standard eldercare inspired by Sri Kanchi Maha Periyava's teachings of selfless love and dignity.
+      </p>
+    </div>
+  </section>
+
+  <!-- Bento Highlights -->
+  <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-20">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+      
+      <!-- Visual Card 1 -->
+      <div class="md:col-span-2 rounded-3xl overflow-hidden relative shadow-lg min-h-[340px] flex items-end p-8 group">
+        <img src="hero-elders-clean.jpg" alt="A Home Filled With Love, Care & Dignity - Elders on verandah" class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition duration-700">
+        <div class="absolute inset-0 bg-gradient-to-t from-slate-950/90 via-slate-950/40 to-transparent"></div>
+        <div class="relative z-10 text-white max-w-lg">
+          <span class="bg-amber-500 text-slate-900 text-xs font-black uppercase px-3 py-1 rounded-full">Our Core Philosophy</span>
+          <h2 class="font-heading font-extrabold text-2xl sm:text-3xl mt-2 text-white">A Home Filled With Love, Care & Dignity</h2>
+          <p class="text-amber-100 text-xs sm:text-sm mt-1">A place where elders are respected, loved, and cared for like family.</p>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="bg-gradient-to-br from-amber-50 to-orange-50 rounded-3xl p-7 border border-amber-200/60 shadow-sm flex flex-col justify-between">
+        <div class="w-12 h-12 rounded-2xl bg-amber-500 text-white flex items-center justify-center text-xl shadow mb-4">
+          <i class="fa-solid fa-notes-medical"></i>
+        </div>
+        <div>
+          <h3 class="font-heading font-bold text-xl text-slate-900 mb-2">24/7 Medical Care</h3>
+          <p class="text-slate-600 text-xs leading-relaxed">Round-the-clock vitals checks, medicine management, physician visits, and emergency hospital tie-up.</p>
+        </div>
+      </div>
+
+      <!-- Card 3: Satvik Nutrition -->
+      <div class="rounded-3xl overflow-hidden relative shadow-lg min-h-[260px] flex items-end p-7 border border-amber-200/80 group">
+        <img src="satvik-thali.jpg" alt="Pure Satvik Thali Meal" class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition duration-700">
+        <div class="absolute inset-0 bg-gradient-to-t from-slate-950/90 via-slate-950/40 to-transparent"></div>
+        <div class="relative z-10 text-white">
+          <span class="bg-emerald-500 text-white text-[10px] font-black uppercase px-2.5 py-0.5 rounded-full">100% Satvik</span>
+          <h3 class="font-heading font-extrabold text-xl mt-1 text-white leading-tight">Nutritious Pure Vegetarian Dining</h3>
+          <p class="text-amber-100 text-xs mt-1">Freshly cooked South Indian meals, diabetic-friendly & mild spices.</p>
+        </div>
+      </div>
+
+      <!-- Card 4: Divine Grace -->
+      <div class="rounded-3xl overflow-hidden relative shadow-lg min-h-[260px] flex items-end p-7 border-2 border-amber-300 group">
+        <img src="mahaperiyavar-clean.jpg" alt="Sri Kanchi Maha Periyava" class="absolute inset-0 w-full h-full object-cover object-top group-hover:scale-105 transition duration-700">
+        <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/40 to-transparent"></div>
+        <div class="relative z-10 text-white">
+          <span class="bg-amber-400 text-slate-950 text-[10px] font-black uppercase px-2.5 py-0.5 rounded-full">Divine Blessings</span>
+          <h3 class="font-heading font-extrabold text-xl mt-1 text-white leading-tight">நல்லது நடக்கும்! நல்லதே நடக்கும்!</h3>
+          <p class="text-amber-100 text-xs mt-1">Daily prayer hall, chanting & serene spiritual peace.</p>
+        </div>
+      </div>
+
+      <!-- Card 5 -->
+      <div class="bg-gradient-to-br from-indigo-50 to-purple-50 rounded-3xl p-7 border border-indigo-200/60 shadow-sm flex flex-col justify-between">
+        <div class="w-12 h-12 rounded-2xl bg-indigo-600 text-white flex items-center justify-center text-xl shadow mb-4">
+          <i class="fa-solid fa-wheelchair"></i>
+        </div>
+        <div>
+          <h3 class="font-heading font-bold text-xl text-slate-900 mb-2">Senior-Safe Living</h3>
+          <p class="text-slate-600 text-xs leading-relaxed">Anti-slip bathroom tiles, grab bars, wheelchair ramps, airy single/sharing rooms, and CCTV safety.</p>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Quick CTA -->
+    <div class="mt-14 text-center">
+      <a href="contact.html" class="inline-flex items-center gap-2 bg-gradient-to-r from-brand-sunset to-brand-amber text-white font-extrabold px-8 py-3.5 rounded-full shadow-lg glow-sunset hover:scale-105 transition">
+        <span>Connect for Admission</span>
+        <i class="fa-solid fa-arrow-right"></i>
+      </a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-slate-950 text-slate-400 py-10 border-t border-slate-800 text-center text-xs">
+    <p>&copy; 2026 Maha Periyavar Mudhiyor Paramarippu Maiyam. Built with devotion and care.</p>
+  </footer>
+
+</body>
+</html>
